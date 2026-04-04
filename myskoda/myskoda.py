@@ -40,7 +40,6 @@ from myskoda.models.fixtures import (
     FixtureVehicle,
     create_fixture_vehicle,
 )
-from myskoda.models.widget import WidgetResponse
 
 from .__version__ import __version__ as version
 from .auth.authorization import Authorization
