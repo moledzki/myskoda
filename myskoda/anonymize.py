@@ -303,7 +303,6 @@ def anonymize_widget(data: dict) -> dict:
     Returns:
         dict
     """
-    data["vehicle"]["name"] = VEHICLE_NAME
     data["vehicle"]["licensePlate"] = LICENSE_PLATE
     data["vehicle"]["renderUrl"] = anonymize_url(data["vehicle"]["renderUrl"])
     data["parkingPosition"]["maps"]["lightMapUrl"] = anonymize_url_location(

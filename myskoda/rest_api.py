@@ -36,6 +36,7 @@ from myskoda.anonymize import (
     anonymize_vehicle_renders,
     anonymize_widget,
 )
+from myskoda.models.widget import WidgetResponse
 
 from .auth.authorization import Authorization
 from .const import BASE_URL_SKODA, REQUEST_TIMEOUT_IN_SECONDS
